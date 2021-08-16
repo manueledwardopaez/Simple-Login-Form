@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$colorAzul: rgba(94,145,248,255)
+$colorBlanco: rgba(255,255,255,255)
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background: $colorAzul
+    font-family: 'Open Sans', sans-serif
+
+    .container
+        margin: 200px auto
+        width: 650px
+
+        .title
+            color: $colorBlanco
+            margin: 0px auto
+            margin-bottom: 30px
+            display: flex
+            flex-direction: column
+            text-align: center
+            i 
+               font-size: 50px 
+               margin-bottom: 15px
+            .welcome  
+                font-size: 40px
+                font-weight: 400
+                text-align: center
+
+        .form
+            background: $colorBlanco
+            width: 100%
+            padding: 40px 20px
+            display: flex
+            align-items: center
+            flex-direction: row
+            flex-wrap: wrap
+            border: 1px solid $colorBlanco
+            border-radius: 10px
+
+            .inp
+                padding: 25px
+                width: 80%
+                margin: 5px auto
+                border: 1px solid black
+                border-radius: 9px
+                font-size: 18px
+                font-weight: 200
+                outline: none
+                opacity: 0.3
+                &:focus
+                    opacity: 1
+            .button
+                width: 80%
+                padding: 20px
+                border: 1px solid $colorBlanco
+                border-radius: 9px
+                font-size: 20px
+                margin: 12px auto
+                background: $colorAzul
+                color: $colorBlanco
+                outline: none
+                &:hover
+                    cursor: pointer
+                    opacity: 0.8
+                &:active
+                    transform: scale(.9)
+
+        .foot
+            display: flex
+            justify-content: space-between
+            margin-top: 12px
+            .text
+                margin: 20px
+                color: $colorBlanco
+                a
+                    color: $colorBlanco
+                    text-decoration: none
+                    &:hover
+                        text-decoration: underline

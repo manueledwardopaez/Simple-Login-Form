@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #5e91f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body .container {
+  margin: 200px auto;
+  width: 650px;
+}
+
+body .container .title {
+  color: white;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body .container .title i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+body .container .title .welcome {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+body .container .form {
+  background: white;
+  width: 100%;
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+body .container .form .inp {
+  padding: 25px;
+  width: 80%;
+  margin: 5px auto;
+  border: 1px solid black;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 200;
+  outline: none;
+  opacity: 0.3;
+}
+
+body .container .form .inp:focus {
+  opacity: 1;
+}
+
+body .container .form .button {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 9px;
+  font-size: 20px;
+  margin: 12px auto;
+  background: #5e91f8;
+  color: white;
+  outline: none;
+}
+
+body .container .form .button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+body .container .form .button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+body .container .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+}
+
+body .container .foot .text {
+  margin: 20px;
+  color: white;
+}
+
+body .container .foot .text a {
+  color: white;
+  text-decoration: none;
+}
+
+body .container .foot .text a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
