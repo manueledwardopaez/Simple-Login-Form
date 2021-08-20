@@ -11,8 +11,11 @@ $colorBlanco: rgba(255,255,255,255)
 body
     background: $colorAzul
     font-family: 'Open Sans', sans-serif
+    font-weight: 400
 
     .container
+        display: flex
+        flex-direction: column
         margin: 200px auto
         width: 650px
 
@@ -51,7 +54,6 @@ body
                 font-size: 18px
                 font-weight: 200
                 outline: none
-                opacity: 0.3
                 &:focus
                     opacity: 1
             .button
@@ -64,6 +66,7 @@ body
                 background: $colorAzul
                 color: $colorBlanco
                 outline: none
+                opacity: 1
                 &:hover
                     cursor: pointer
                     opacity: 0.8
@@ -82,3 +85,9 @@ body
                     text-decoration: none
                     &:hover
                         text-decoration: underline
+@media screen and (max-width: 600px)
+    body
+        background: $colorAzul
+        .container 
+            margin: 20px
+            width: 90%
